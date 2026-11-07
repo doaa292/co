@@ -37,9 +37,9 @@ def main() -> None:
         print(f"Power: {station.power_level}%")
         print(f"Oxygen: {station.oxygen_level}%")
         if station.is_operational:
-            print("Status:Operational\n")
+            print("Status: Operational\n")
         else:
-            print("Non-operational\n")
+            print("Status: Non-operational\n")
 
     except ValidationError as error:
         print("Validation error:")
